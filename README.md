@@ -1,13 +1,6 @@
-# Zenburn M Colorscheme
+# Zenburned
 
-Modified Zenburn Theme
-
-![image](./zenburnm.png)
-
-### Plugin Support
-
-- [Neogit](https://github.com/NeogitOrg/neogit)
-- [Zen-Mode](https://github.com/folke/zen-mode.nvim)
+This is a fork of https://github.com/rainstf/zenburn-m modified to my custom colors.
 
 ### License
 

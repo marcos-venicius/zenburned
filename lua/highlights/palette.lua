@@ -1,8 +1,10 @@
+-- @marcos-venicius 2026-18-03 changed zen_bg color
+
 return {
 	zen_fg1       = "#656555",
 	zen_fg        = "#DCDCCC",
 	zen_fg2       = "#FFFFFD",
-	zen_bg        = "#3b3b3b",
+	zen_bg        = "#141414",
 	zen_bg03      = "#494949",
 	zen_bg1       = "#4F4F4F",
 	zen_bg2       = "#5F5F5F",

@@ -1,6 +1,6 @@
 local M = {}
 
-M.name = "zenburn-m"
+M.name = "zenburned"
 
 local function setup_namespace()
 	vim.api.nvim_buf_clear_namespace(0, -1, 0, -1)

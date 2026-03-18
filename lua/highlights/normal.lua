@@ -1,9 +1,13 @@
+-- @marcos-venicius 2026-18-03 changed Function style
+--                             changed Comment style
+--                             changed SignColumn style
+
 local p = require("highlights.palette")
 
 return {
 	Normal         = {fg = p.zen_fg, bg = p.zen_bg},
 	Keyword        = {fg = p.zen_yellow, bold = true},
-	Function       = {fg = p.zen_blue},
+	Function       = {fg = p.zen_blue, bold = true},
 	StorageClass   = {fg = p.zen_yellow, bold = true},
 	Define         = {fg = p.zen_yellow, bold = true},
 	Structure      = {fg = p.zen_yellow_4, bold = true},
@@ -37,12 +41,12 @@ return {
 	TabLineFill    = {fg = p.zen_fg, bg = p.none},
 	TabLineSel     = {fg = p.zen_fg, bg = p.none},
 
-	Comment        = {fg = p.zen_green},
+	Comment        = {fg = p.zen_green_1, italic = true},
 	SpecialComment = {fg = p.zen_fg},
 	Debug          = {fg = p.zen_fg},
 	PreProc        = {fg = p.zen_fg},
 	LineNr         = {fg = p.zen_bg2},
-	SignColumn     = {bg = zenburn_bg1},
+	SignColumn     = {bg = p.zen_bg1},
 	CursorLineNr   = {fg = p.zen_bg},
 	Statusline     = {bg = p.zen_bg03},
 	StatusLineNC   = {fg = p.zen_bg03, bg = p.zen_bg03},
