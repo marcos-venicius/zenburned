@@ -9,6 +9,7 @@ return {
 	zen_bg1       = "#4F4F4F",
 	zen_bg2       = "#5F5F5F",
 	zen_bg3       = "#6F6F6F",
+	zen_bg4       = "#181818",
 	zen_red_3     = "#7C4343",
 	zen_red_2     = "#AC7373",
 	zenburn_red_1 = "#BC8383",

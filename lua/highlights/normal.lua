@@ -48,6 +48,7 @@ return {
 	LineNr         = {fg = p.zen_bg2},
 	SignColumn     = {bg = p.zen_bg1},
 	CursorLineNr   = {fg = p.zen_bg},
+	CursorLine     = {bg = p.zen_bg4},
 	Statusline     = {bg = p.zen_bg03},
 	StatusLineNC   = {fg = p.zen_bg03, bg = p.zen_bg03},
 	Visual         = {bg = p.zen_bg03},
