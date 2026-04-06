@@ -1,3 +1,6 @@
+-- @marcos-venicius 2026-06-02 removed bold style
+--                             updated NormalFloat color to zen_bg
+--                             updated Search bg color to zen_bg03
 -- @marcos-venicius 2026-18-03 changed Function style
 --                             changed Comment style
 --                             changed SignColumn style
@@ -6,19 +9,19 @@ local p = require("highlights.palette")
 
 return {
 	Normal         = {fg = p.zen_fg, bg = p.zen_bg},
-	Keyword        = {fg = p.zen_yellow, bold = true},
-	Function       = {fg = p.zen_blue, bold = true},
-	StorageClass   = {fg = p.zen_yellow, bold = true},
-	Define         = {fg = p.zen_yellow, bold = true},
-	Structure      = {fg = p.zen_yellow_4, bold = true},
+	Keyword        = {fg = p.zen_yellow},
+	Function       = {fg = p.zen_blue},
+	StorageClass   = {fg = p.zen_yellow},
+	Define         = {fg = p.zen_yellow},
+	Structure      = {fg = p.zen_yellow_4},
 	Typedef        = {fg = p.zen_fg},
-	Type           = {fg = p.zen_yellow_3, bold =true},
+	Type           = {fg = p.zen_yellow_3},
 	Tag            = {fg = p.zen_fg},
 	Macro          = {fg = p.zen_fg},
 	PreCondit      = {fg = p.zen_fg},
 	Label          = {fg = p.zen_fg},
 	Statement      = {fg = p.zen_yellow},
-	Conditional    = {fg = p.zen_yellow, bold = true},
+	Conditional    = {fg = p.zen_yellow},
 	Operator       = {fg = p.zen_fg},
 	Repeat         = {fg = p.zen_fg},
 	Identifier     = {fg = p.zen_fg},
@@ -30,7 +33,7 @@ return {
 	SpecialKey     = {fg = p.zen_fg},
 	Delimiter      = {fg = p.zen_fg},
 	Directory      = {fg = p.zen_yellow},
-	Search         = {fg = p.zen_fg, bg = p.zen_bg3},
+	Search         = {fg = p.zen_fg, bg = p.zen_bg03},
 	Fold           = {fg = p.zen_fg, bg = p.zen_bg},
 	FoldColumn     = {fg = p.zen_fg, bg = p.zen_bg},
 	CursorLineFold = {fg = p.zen_fg, bg = p.zen_bg},
@@ -64,6 +67,6 @@ return {
 	Boolean        = {fg = p.zen_fg },
     Character      = {fg = p.zen_red},
     Float          = {fg = p.zen_fg},
-    NormalFloat    = {bg = p.zen_bg03},
+    NormalFloat    = {bg = p.zen_bg},
     Include        = {fg = p.zen_red},
 }
