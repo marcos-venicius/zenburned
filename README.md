@@ -2,7 +2,7 @@
 
 _This is my custom neovim colorscheme based on [zenburn-m](https://github.com/rainstf/zenburn-m)_
 
-<img width="960" height="991" alt="A gray-ish screenshot of neovim using the theme. It uses soft colors inspired in zenburn-m and gruvbox" src="https://github.com/user-attachments/assets/7567a0ee-d173-44d8-85a0-184259eee45d" />
+<img width="1920" height="1080" alt="A gray-ish screenshot of neovim using the theme. It uses soft colors inspired in zenburn-m and gruvbox" src="https://github.com/user-attachments/assets/e855210b-0174-4603-9864-c316e850925f" />
 
 ## Installing
 
